@@ -1,7 +1,7 @@
 //rafc
 import { useState, useEffect } from 'react'; //Hook de React para manejar estados como datos del paciente en este caso
 import { collection, addDoc, getDocs } from 'firebase/firestore'; //addDoc: agrega documentos (pacientes) a la colección en Firestore,, getDocs: obtiene documentos de Firestore
-import { db } from '../../repositories/firebase/config'; //Instancia importado de Firestore desde config.js
+import { db } from '../../repositories/firebase/config.js'; //Instancia importado de Firestore desde config.js
 
 export const FormPatient = () => {
     //Registro del paciente -> Estado para los datos del formulario

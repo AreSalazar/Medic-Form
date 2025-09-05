@@ -2,7 +2,7 @@
 import { useState } from 'react'; //Hook de React para manejar estados asi como correo, contraseña, errores en este caso
 import { useNavigate } from 'react-router'; //Hook de React Router para redirigir entre páginas
 import { createUserWithEmailAndPassword } from 'firebase/auth'; //Función de Firebase que crea un usuario nuevo con email y password
-import { auth } from '../../repositories/firebase/config'; // Importa la instancia de autenticación
+import { auth } from '../../repositories/firebase/config.js'; // Importa la instancia de autenticación
 
 const RegisterComponent = () => {
     //Registro de usuario -> Estado para los datos del usuario
