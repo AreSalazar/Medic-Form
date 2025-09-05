@@ -1,4 +1,4 @@
-//import { DataPatient } from './views/patient/DataPatient'
+
 import RegisterComponent from './views/register/RegisterComponent' //Sin {} ya que lo estamos importando aquí, y en RegisterComponent lo exportamos
 import { FormPatient } from './views/form/FormPatient';
 import { BrowserRouter, Routes, Route } from 'react-router';
